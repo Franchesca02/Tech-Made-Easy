@@ -1,0 +1,79 @@
+.sidebar {
+    width: 17%;
+    height: 100vh;
+    padding-left: 45px;
+    padding-right: 50px;
+    
+}
+
+.logo {
+    padding-top: 25px;
+    width: 30%;
+    padding-left: 10px;
+}
+.home {
+    display: flex; 
+    padding-top: 25px;
+} 
+
+
+/* .home-icon {
+    background-color: #1D9BF0;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+} */
+.home-icon svg{
+    color: grey;
+    margin-top: 37px;
+}
+h3{
+    margin-top: 30px;
+}
+.sidebarhead{
+    padding-left: 15px;
+    font: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0000006E;
+    /* text-decoration: none; */
+}
+.change{
+    padding-left: 15px;
+    font: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+   
+    /* background-color: red; */
+}
+a {
+    text-decoration: none;
+    color: #0000006E;
+}
+a:active {
+    /* color: black;
+    text-decoration: underline; */
+}
+.favorite {
+    display: flex; 
+    padding-top: 25px;
+} 
+.fav-icon {
+    text-align: center;
+    margin-top: 37px;
+}
+.fav-icon svg{
+    color: grey;
+    /* margin-top: 1rem; */
+}
+@media screen and (max-width:600px) {
+    .sidebar{
+      width: 90%;
+      margin: 1rem auto;
+      height: 50%;
+    } 
+  }

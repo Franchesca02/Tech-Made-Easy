@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 250px;
+    padding-left: 15px;
+    padding-right: 20px;
+    justify-content: space-between;
+    width: 85%;
+}
+.copyright p{
+    color: #8692A6;
+    font-size: 14px;
+    font: Inter;
+    font-weight: 500;
+}
+.currency {
+    /* float: left; */
+}

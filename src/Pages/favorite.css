@@ -1,0 +1,12 @@
+.favorites {
+    padding-left: 32px;
+    width: 70%;
+    height: 100vh;
+    
+}
+.head h1{
+    font-size: 32px;
+    font-weight: 700; 
+    font: Poppins;
+    color: black;
+}
