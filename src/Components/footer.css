@@ -6,7 +6,8 @@
     padding-left: 15px;
     padding-right: 20px;
     justify-content: space-between;
-    width: 85%;
+    width: 63%;
+    margin: 0 auto;
 }
 .copyright p{
     color: #8692A6;
