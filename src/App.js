@@ -5,7 +5,7 @@ import Logo from "./Assets/logo.png";
 // import "./index.css";
 import Footer from "./Components/footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faHeart, faSearch } from "@fortawesome/free-solid-svg-icons";
 
 // importing the data file
 function App() {
@@ -65,7 +65,7 @@ function App() {
               </div>
             </div>
             <div className="home-tab">
-              <FontAwesomeIcon icon={faHeart} />
+              <FontAwesomeIcon icon={faSearch} />
               <p
                 className={activeTab === "HOME" ? "active" : "btn-tab"}
                 style={{ cursor: "pointer" }}
