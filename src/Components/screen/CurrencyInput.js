@@ -6,9 +6,9 @@ function CurrencyInput(props) {
     <div>
       <div className="group">
         <input
-          type="text"
+          type="number"
           placeholder="amount"
-          value={props.amount}
+          value={props.amount | props.amount.number}
           onChange={(ev) => props.onAmountChange(ev.target.value)}
         />
         <select

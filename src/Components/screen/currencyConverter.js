@@ -9,7 +9,7 @@ const Converter = () => {
   const [currency1, setCurrency1] = useState("USD");
   const [currency2, setCurrency2] = useState("NGN");
   const [currencies, setCurrencies] = useState([]);
-
+  // CurrencyInput: parseInt(amount2, 1),
   useEffect(() => {
     axios.get("https://api.terawork.com/resources").then((response) => {
       setCurrencies(response.data);
