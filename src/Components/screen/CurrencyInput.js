@@ -8,7 +8,8 @@ function CurrencyInput(props) {
         <input
           type="number"
           placeholder="amount"
-          value={props.amount | props.amount.number}
+          // value={String(props.amount)}
+          value={props.amount | props.amount.toString()}
           onChange={(ev) => props.onAmountChange(ev.target.value)}
         />
         <select

@@ -24,6 +24,7 @@ const Converter = () => {
       }
       init();
     }
+    // eslint-disable-next-line
   }, [currencies]);
 
   function format(number) {
